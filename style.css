@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(26, 26, 26)
+}
+
+h3 {
+  color: rgba(255, 255, 255, 0.534)
+}
+
+#container {
+  border: 1px solid rgb(26, 26, 26);
+  max-width: 370px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin-left: 30px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(26, 26, 26);
+  margin: 0px;
+  background-color: #DDD;
+  color: rgb(2, 2, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+}
+
+.cell-winner {
+  background-color: yellow !important;
+}
+
+.alert {
+  color: rgba(255, 255, 255, 0.534);
+}
